@@ -54,7 +54,7 @@ this repository contains the full copyright notices and license terms. -->
         <record model="ir.ui.view" id="product_view_form">
             <field name="model">product.product</field>
             <field name="inherit" ref="product.product_view_form"/>
-            <field name="name">product_form</field>
+            <field name="name">product_form</field> <!-- XML file view/product_form.xml-->
         </record>
 
         <record model="ir.ui.view" id="production_lead_time_view_list">

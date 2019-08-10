@@ -78,7 +78,7 @@ msgstr "Názov položky"
 
 msgctxt "field:product.product-production.bom,sequence:"
 msgid "Sequence"
-msgstr ""
+msgstr "Sekvencia"
 
 msgctxt "field:product.product-production.bom,write_date:"
 msgid "Write Date"
@@ -90,7 +90,7 @@ msgstr ""
 
 msgctxt "field:product.template,producible:"
 msgid "Producible"
-msgstr ""
+msgstr "Vyrobiteľný"
 
 msgctxt "field:production,bom:"
 msgid "BOM"
@@ -238,7 +238,7 @@ msgstr "Názov záznamu"
 
 msgctxt "field:production.bom,write_date:"
 msgid "Write Date"
-msgstr ""
+msgstr "Dátum zmeny"
 
 msgctxt "field:production.bom,write_uid:"
 msgid "Write User"
@@ -279,7 +279,7 @@ msgstr ""
 
 msgctxt "field:production.bom.input,uom:"
 msgid "Uom"
-msgstr ""
+msgstr "Merná jednotka"
 
 msgctxt "field:production.bom.input,uom_category:"
 msgid "Uom Category"
@@ -304,7 +304,7 @@ msgstr "Dátum vytvorenia"
 
 msgctxt "field:production.bom.output,create_uid:"
 msgid "Create User"
-msgstr ""
+msgstr "Vytvorené používateľom"
 
 msgctxt "field:production.bom.output,id:"
 msgid "ID"
@@ -332,7 +332,7 @@ msgstr "Merná jednotka"
 
 msgctxt "field:production.bom.output,uom_category:"
 msgid "Uom Category"
-msgstr ""
+msgstr "Kategória merných jednotiek"
 
 msgctxt "field:production.bom.output,write_date:"
 msgid "Write Date"
@@ -352,7 +352,7 @@ msgstr ""
 
 msgctxt "field:production.bom.tree,product:"
 msgid "Product"
-msgstr ""
+msgstr "Produkt"
 
 msgctxt "field:production.bom.tree,quantity:"
 msgid "Quantity"
@@ -395,10 +395,9 @@ msgctxt "field:production.bom.tree.open.start,uom:"
 msgid "Unit"
 msgstr "Jednotka"
 
-#, fuzzy
 msgctxt "field:production.bom.tree.open.tree,bom_tree:"
 msgid "BOM Tree"
-msgstr "BOM Tree"
+msgstr "BOM strom"
 
 msgctxt "field:production.bom.tree.open.tree,id:"
 msgid "ID"
@@ -668,7 +667,7 @@ msgstr "Priraď výrobu"
 
 msgctxt "model:production.bom,name:"
 msgid "Bill of Material"
-msgstr ""
+msgstr "Zoznam materiálu (BOM)"
 
 msgctxt "model:production.bom.input,name:"
 msgid "Bill of Material Input"
@@ -690,10 +689,9 @@ msgctxt "model:production.bom.tree.open.tree,name:"
 msgid "Open BOM Tree"
 msgstr "Otvor BOM strom"
 
-#, fuzzy
 msgctxt "model:production.configuration,name:"
 msgid "Production Configuration"
-msgstr "Production Configuration"
+msgstr "Konfigurácia produkcie"
 
 msgctxt "model:production.configuration.production_sequence,name:"
 msgid "Production Configuration Production Sequence"
@@ -705,15 +703,15 @@ msgstr "Prípravný čas produkcie"
 
 msgctxt "model:res.group,name:group_production"
 msgid "Production"
-msgstr "Production"
+msgstr "Produkcia"
 
 msgctxt "model:res.group,name:group_production_admin"
 msgid "Production Administration"
-msgstr "Production Administration"
+msgstr "Administrácia produkcie"
 
 msgctxt "model:stock.location,name:location_production"
 msgid "Production"
-msgstr "Production"
+msgstr "Produkcia"
 
 msgctxt "selection:production,state:"
 msgid "Assigned"
@@ -723,7 +721,6 @@ msgctxt "selection:production,state:"
 msgid "Canceled"
 msgstr "Zrušený"
 
-#, fuzzy
 msgctxt "selection:production,state:"
 msgid "Done"
 msgstr "Hotovo"
@@ -750,7 +747,7 @@ msgstr "Výroba"
 
 msgctxt "view:production.assign.failed:"
 msgid "Unable to assign those products:"
-msgstr ""
+msgstr "Nemohol som priradiť tieto produkty:"
 
 msgctxt "view:production.bom:"
 msgid "Lines"
@@ -770,7 +767,7 @@ msgstr ""
 
 msgctxt "wizard_button:production.assign,failed,force:"
 msgid "Force Assign"
-msgstr ""
+msgstr "Priraď - prepíš"
 
 msgctxt "wizard_button:production.bom.tree.open,start,end:"
 msgid "Cancel"

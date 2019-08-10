@@ -26,7 +26,8 @@ class Product(metaclass=PoolMeta):
         states={
             'invisible': ~Eval('producible')
             },
-        depends=['type'])
+        depends=['type']
+        )
     lead_times = fields.One2Many('production.lead_time',
         'product', 'Lead Times', order=[('sequence', 'ASC'), ('id', 'ASC')],
         states={

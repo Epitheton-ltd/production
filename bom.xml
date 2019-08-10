@@ -6,7 +6,7 @@ this repository contains the full copyright notices and license terms. -->
         <record model="ir.ui.view" id="bom_view_list">
             <field name="model">production.bom</field>
             <field name="type">tree</field>
-            <field name="name">bom_list</field>
+            <field name="name">bom_list</field> <!-- XML file-->
         </record>
 
         <record model="ir.ui.view" id="bom_view_form">
@@ -15,7 +15,7 @@ this repository contains the full copyright notices and license terms. -->
             <field name="name">bom_form</field>
         </record>
 
-        <record model="ir.action.act_window" id="act_bom_list">
+        <record model="ir.action.act_window" id="act_bom_list"> <!-- called from menu-->
             <field name="name">BOMs</field>
             <field name="res_model">production.bom</field>
         </record>
@@ -30,7 +30,7 @@ this repository contains the full copyright notices and license terms. -->
             <field name="act_window" ref="act_bom_list"/>
         </record>
         <menuitem parent="menu_configuration" sequence="10"
-            action="act_bom_list" id="menu_bom_list"/>
+            action="act_bom_list" id="menu_bom_list"/> <!-- definicia menu "BOMs", wich calls id=act_bom_list -->
 
         <record model="ir.action.act_window" id="act_bom_form">
             <field name="name">BOM</field>
